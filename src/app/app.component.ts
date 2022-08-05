@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-interview-practice';
+  parentProperty = "I come from parent";
+  constructor() { }
 }
